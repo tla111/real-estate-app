@@ -4,8 +4,9 @@ import Image from 'next/image'
 import { Flex, Box, Text, Icon } from '@chakra-ui/react';
 import { BsFilter } from 'react-icons/bs';
 
-// import Property from '../components/Property';
-// import SearchFilters from '../components/SearchFilters';
+import Property from '../components/Property';
+import SearchFilters from '../components/SearchFilters';
+import noresult from '../assets/images/noresult.svg';
 
 const search = () => {
     const [searchFilters, setSearchFilters] = useState(false);
