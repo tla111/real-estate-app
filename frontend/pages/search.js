@@ -8,6 +8,9 @@ import Property from '../components/Property';
 import SearchFilters from '../components/SearchFilters';
 
 const search = () => {
+    const [searchFilters, setSearchFilters] = useState(false);
+    const router = useRouter();
+
     return (
         <div>search</div>
     )
