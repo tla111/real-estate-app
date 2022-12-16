@@ -7,7 +7,7 @@ import millify from 'millify';
 
 import { baseUrl, fetchApi } from '../../utils/fetchApi';
 
-const PropertyDetails = () => (
+const PropertyDetails = ({ propertyDetails: { price, rentFrequency, rooms, title, baths, area, agency, isVerified, description, type, purpose, furnishingStatus, amenities, photos } }) => (
     <Box>
         hi
     </Box>
